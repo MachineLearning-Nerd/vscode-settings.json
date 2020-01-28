@@ -1,0 +1,152 @@
+{
+    "python.pythonPath": "F:\\Program Files\\Python36\\python.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.statusBar.visible": true,
+    "window.restoreFullscreen": true,
+    "window.menuBarVisibility": "toggle",
+    "zenMode.hideStatusBar": false,
+    "zenMode.restore": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.snippetSuggestions": "top",
+    "autoDocstring.docstringFormat": "google",
+    "window.zoomLevel": 1,
+    "workbench.settings.editor": "json",
+    // "kite.showWelcomeNotificationOnStartup": false,
+    "workbench.iconTheme": "vscode-icons",
+    "kite.showWelcomeNotificationOnStartup": false,
+    // "workbench.colorCustomizations": {},
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#36445e",
+        "tab.activeBorder": "#ffffff",
+        "tab.hoverBackground": "#4f658b",
+        "activityBar.activeBorder": "#289eff",
+        "activityBar.foreground": "#ffffff",
+        "foreground": "#ffffff",
+        "statusBar.background": "#289eff",
+        "statusBar.foreground": "#ffffff",
+        "editor.selectionHighlightBackground": "#575757f3", //Same content as selection
+        "editor.selectionHighlightBorder": "#ffffff",
+        // "panel.background": "#289eff",
+        "panelTitle.activeBorder": "#ffffff",
+        "menubar.selectionBackground": "#289eff",
+        "editorLineNumber.foreground": "#ffffff",
+        "scrollbarSlider.activeBackground": "#747d9180",
+        "scrollbarSlider.background": "#ffffff60",
+        "scrollbarSlider.hoverBackground": "#5a637580",
+        "terminal.ansiBlack": "#2d3139",
+        "terminal.ansiBlue": "#61afef",
+        "terminal.ansiBrightBlack": "#7f848e",
+        "terminal.ansiBrightBlue": "#528bff",
+        "terminal.ansiBrightCyan": "#56b6c2",
+        "terminal.ansiBrightGreen": "#98c379",
+        "terminal.ansiBrightMagenta": "#7e0097",
+        "terminal.ansiBrightRed": "#f44747",
+        "terminal.ansiBrightWhite": "#d7dae0",
+        "terminal.ansiBrightYellow": "#e5c07b",
+        "terminal.ansiCyan": "#56b6c2",
+        "terminal.ansiGreen": "#98c379",
+        "terminal.ansiMagenta": "#c678dd",
+        "terminal.ansiRed": "#e06c75",
+        "terminal.ansiWhite": "#d7dae0",
+        "terminal.ansiYellow": "#e5c07b",
+        "terminal.foreground": "#c8c8c8",
+        "textLink.foreground": "#61afef",
+        "titleBar.activeBackground": "#282c34",
+        "titleBar.activeForeground": "#9da5b4",
+        "titleBar.inactiveBackground": "#21252b",
+        "titleBar.inactiveForeground": "#6b717d"
+    },
+    "sshfs.configs": [
+        {
+            "host": "50.116.10.249",
+            "name": "Photo",
+            "password": true,
+            "port": 22,
+            "root": "/home/astir/Photo_Editor",
+            "username": "astir"
+        }
+    ],
+    "editor.wordWrap": "on",
+    "editor.lineNumbers": "relative",
+    "editor.tokenColorCustomizations": {
+        "[One Dark Pro]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "source.python"
+                    ],
+                    "settings": {
+                        "foreground": "#ffffff"
+                    }
+                },
+            ],
+            "comments": "#229977",
+            "functions": "#00b3ff",
+            "variables": "#ffae00",
+            "keywords": "#dc67ff",
+            "strings": "#62f87a",
+            "numbers": "#FF0000"
+        },
+        "[Atom Material Theme]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "source.python"
+                    ],
+                    "settings": {
+                        "foreground": "#ebe1e1"
+                    }
+                },
+                {
+                    "name": "python type",
+                    "scope": "support.type.python",
+                    "settings": {
+                        "foreground": "#ffffff"
+                    }
+                },
+                {
+                    "name": "python function-call.generic",
+                    "scope": "meta.function-call.generic.python",
+                    "settings": {
+                        "foreground": "#7bf0ff"
+                    }
+                },
+                {
+                    "name": "python logical",
+                    "scope": "keyword.operator.logical.python",
+                    "settings": {
+                        "foreground": "#c678dd"
+                    }
+                },
+                {
+                    "name": "support.variable.magic.python",
+                    "scope": "support.variable.magic.python",
+                    "settings": {
+                        "foreground": "#e06c75"
+                    }
+                },
+                {
+                    "name": "pyCs",
+                    "scope": "variable.parameter.function.python",
+                    "settings": {
+                        "foreground": "#d19a66"
+                    }
+                },
+            ],
+            "comments": "#229977",
+            "functions": "#6f7eff",
+            "variables": "#ffae00",
+            "keywords": "#dc67ff",
+            "strings": "#36fd57",
+            "numbers": "#ff8282"
+        }
+    },
+    "glassit.alpha": 255,
+    "workbench.colorTheme": "Atom Material Theme"
+}
